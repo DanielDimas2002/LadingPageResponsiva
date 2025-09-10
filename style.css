@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,18 +7,18 @@
     text-decoration: none;
 }
 
-:root{
+:root {
     --red: #d63a25;
     --while: #fff;
     --dark: #1e1c2a;
 }
 
-body{
+body {
     color: var(--dark);
     background: var(--while);
 }
 
-.navigation{
+.navigation {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,45 +27,46 @@ body{
     width: 100%;
     background: var(--while);
     transition: all 0.5s;
+    position: fixed;
 }
 
-.navigation .logo{
+.navigation .logo {
     color: var(--red);
     font-size: 1.7rem;
     font-weight: 600;
 }
 
-.logo span{
+.logo span {
     color: var(--dark);
 }
 
-.navigation ul{
+.navigation ul {
     display: flex;
     align-items: center;
     gap: 5rem;
 }
 
-.navigation ul li a{
+.navigation ul li a {
     color: var(--dark);
     font-size: 17px;
     font-weight: 500;
     transition: all 0.5s;
 }
 
-.navigation ul li a:hover{
+.navigation ul li a:hover {
     color: var(--red)
 }
 
-.navigation{
+.navigation {
     cursor: pointer;
     font-size: 1.5rem;
 }
 
-.menu{
+.menu {
     cursor: pointer;
 }
 
-.menu .bar{
+.menu .bar {
     display: block;
     width: 28px;
     height: 3px;
@@ -76,7 +77,52 @@ body{
 }
 
 .menu .bar:nth-child(1),
-.menu .bar:nth-child(3){
+.menu .bar:nth-child(3) {
     background: var(--red);
 }
 
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10%;
+}
+
+.home-text {
+    max-width: 37rem;
+}
+
+.home-text .text-h4 {
+    font-size: 1.5rem;
+    color: var(--red);
+    margin-bottom: 1rem;
+}
+
+.home-text .text-h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    line-height: 4rem;
+}
+
+.home-text p {
+    margin-bottom: 4rem;
+}
+
+.home-btn {
+    padding: 15px 45px;
+    background: var(--red);
+    color: var(--while);
+    border-radius: 10px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.home-btn:hover {
+    background: #fc4c35;
+}
+
+.home-img img {
+    width: 100%;
+}
