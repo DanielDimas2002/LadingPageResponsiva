@@ -1,8 +1,4 @@
-Perfeito, Dan! 👏
-Com o código completo em mãos, já montei um **README.md** pronto pra você usar no GitHub.
-Adicionei a observação de que é um **projeto guiado**, deixando claro que a ideia foi exercitar HTML, CSS e JS.
 
-Aqui está:
 
 ---
 
