@@ -23,7 +23,7 @@ O objetivo é praticar conceitos de **responsividade**, **menu hamburger interat
 
 ## 📂 Estrutura de Arquivos
 
-```
+
 
 /
 ├── index.html      # Estrutura principal da página
@@ -32,7 +32,7 @@ O objetivo é praticar conceitos de **responsividade**, **menu hamburger interat
 └── img/
 └── imagem.png  # Imagem usada no banner
 
-````
+
 
 ## 📱 Funcionalidades
 
@@ -46,21 +46,15 @@ O objetivo é praticar conceitos de **responsividade**, **menu hamburger interat
 1. Clone este repositório:
    ```bash
    git clone https://github.com/seu-usuario/food-peek.git
-````
+
 
 2. Acesse a pasta do projeto:
 
    ```bash
    cd food-peek
-   ```
+   
 
 3. Abra o arquivo `index.html` diretamente no navegador ou use uma extensão como **Live Server** no VS Code.
-
-## 📌 Melhorias Futuras
-
-* Adicionar mais seções (ex.: depoimentos, rodapé, galeria).
-* Melhorar acessibilidade (ARIA labels, navegação por teclado).
-* Criar versão com integração a backend para pedidos reais.
 
 ## 📖 Observação
 
