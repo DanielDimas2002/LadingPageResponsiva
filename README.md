@@ -5,8 +5,8 @@
 ```markdown
 # 🍔 Food Peek - Landing Page Responsiva
 
-Este é um **projeto guiado** de desenvolvimento de uma landing page responsiva, criado com **HTML, CSS e JavaScript**.  
-O objetivo é praticar conceitos de **responsividade**, **menu hamburger interativo** e **layout moderno**.
+Este é um *projeto guiado* de desenvolvimento de uma landing page responsiva, criado com *HTML, CSS e JavaScript*.  
+O objetivo é praticar conceitos de *responsividade*, *menu hamburger interativo* e *layout moderno*.
 
 ## 🚀 Demonstração
 
