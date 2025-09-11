@@ -141,7 +141,7 @@ body {
     .menu.ativo .bar:nth-child(2){
         opacity: 0;
     }
-    menu.ativo .bar:nth-child(3){
+    .menu.ativo .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
     }
     .nav-menu{
@@ -154,6 +154,10 @@ body {
         background: var(--while);
         gap: -10px;
         transition: 0.3s;
+    }
+
+    .nav-menu.ativo{
+        right: 0;
     }
 
     .nav-item{
